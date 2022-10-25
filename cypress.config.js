@@ -10,7 +10,11 @@ module.exports = defineConfig({
     },
     specPattern: "cypress/integration/examples/BDD/*.feature",
     defaultCommandTimeout: 8000,
-    reporter: "mochawesome",
+    // reporter: "mochawesome",
+    reporter: "junit",
+    reporterOptions: {
+      mochaFile: "results/results-[hash].html",
+    },
     env: {
       url: "https://rahulshettyacademy.com/angularpractice/",
     },
