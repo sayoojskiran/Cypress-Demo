@@ -11,6 +11,7 @@ Given('User reaches in ecom website', () => {
 
 When('Use navigates to shop', function() {
     ecomAction.gotoShop(this.data.tab);
+    //dfdsf
 })
 
 When('User add items to cart', function() {
