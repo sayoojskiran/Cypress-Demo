@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    First end to end scenario for an ecom application",
+    "keyword": "Feature",
+    "name": "End to end Ecommerce",
+    "line": 1,
+    "id": "end-to-end-ecommerce",
+    "tags": [],
+    "uri": "ecom.feature",
+    "elements": [
+      {
+        "id": "end-to-end-ecommerce;ecom-product-delivery",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ecom product delivery",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User reaches in ecom website",
+            "result": {
+              "status": "passed",
+              "duration": 2465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Use navigates to shop",
+            "result": {
+              "status": "passed",
+              "duration": 1617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User add items to cart",
+            "result": {
+              "status": "passed",
+              "duration": 577000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User proceeds to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User selects country and confirm order",
+            "result": {
+              "status": "passed",
+              "duration": 5485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User verifies the confirmation message",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
